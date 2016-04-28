@@ -17,7 +17,11 @@ Simply include somewhere in your C# project, then use the StartLerp method to re
 
 	    void Start()
 	    {
-	        UniLerp.StartLerp(Goal, new Vector3(-30.83f, 1.0f, 1.0f), new Vector3(100f, 90f, 90f), new Vector3(1.0f, 1.0f, 1.0f));
+	        UniLerp.StartLerp(Goal,
+	         new Vector3(-30.83f, 1.0f, 1.0f),
+	         new Vector3(100f, 90f, 90f),
+	         new Vector3(1.0f, 1.0f, 1.0f)
+	        );
 	    }
 
 	    void Update()
