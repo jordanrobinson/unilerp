@@ -1,15 +1,13 @@
 # UniLerp
-UniLerp is a small Unity library for smoothly transitioning game objects between position, scale and rotation
+UniLerp is a small Unity library for smoothly transitioning game objects between position, scale and rotation.
 
 ## What is this?
-
 This is a (very) small library for LERPing game objects in unity between positions, scale and rotation.
 
 ## How do I use it?
-
 Simply include somewhere in your C# project, then use the StartLerp method to register a game object for a transition. Then, use the Tick method somewhere on an update method on a Unity Behaviour.
 
-This should looks somewhat like this:
+#### This should looks somewhat like this:
 
 	using UnityEngine;
 
